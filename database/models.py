@@ -69,5 +69,4 @@ def delete_all_tables():
 
 
 def reload_all():
-    delete_all_tables()
     create_all_tables()
