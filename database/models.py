@@ -66,3 +66,8 @@ def delete_all_tables():
     User.drop_table()
     Genre.drop_table()
     GenreSearcher.drop_table()
+
+
+def reload_all():
+    delete_all_tables()
+    create_all_tables()
